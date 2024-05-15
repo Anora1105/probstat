@@ -5,16 +5,16 @@
 
         .form-control:focus {
             border-color: #ffffff; /* Ganti dengan warna yang diinginkan */
-            box-shadow: 0 0 0 0.2rem #ffffff7c; /* Ganti dengan warna yang diinginkan */
+            box-shadow: 0 0 0 0.2rem #bcc6cccc; /* Ganti dengan warna yang diinginkan */
         }
 .custom-placeholder::placeholder {
-    color: white;
+    color: rgb(51, 49, 49);
 }
 .custom-jumbotron {
-    font-family: 'helvetica', sans-serif; /* Menggunakan font Arial */
+    font-family: 'arial', sans-serif; /* Menggunakan font Arial */
     
 }
 .custom-jumbotron {
-    color: white;
+    color: rgb(51, 49, 49);
 }
 
