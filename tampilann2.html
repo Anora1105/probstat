@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Distribusi Eksponen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .custom-jumbotron {
+                background-color: #bcc6cc38;
+                /* Biru transparan */
+                border: 1px solid #bcc6cc79;
+                /* Outline biru transparan */
+                border-radius: 15px;
+                /* Membuat outline tumpul */
+                padding: 3rem;
+                /* Padding */
+                margin: 1.5rem;
+                /* Margin */
+            }
+        </style>
+</head>
+
+<body style=background-color:#151B54>
+    
+    <div class="container">
+        <br>
+        <center>
+            <h1 style="font-family: 'helvetica', Times, serif; color: #F5F5F5; font-size: 40px;"><strong> Sebaran Peluang Distribusi
+                Eksponen</strong></h1>
+                </center>
+            </br>
+            <br>
+        <!-- Jumbotron -->
+        <div class="custom-jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-7">
+                        <p>Distribusi eksponensial mempunyai banyak nilai praktis, terutama dalam hal yang berhubungan dengan waktu, misalnya:
+                        waktu tunggu, waktu hidupnya suatu alat atau lamanya jangka waktu sampai suatu alat berhenti berfungsi, lamanya
+                        percakapan telepon, dan sebagainya.</p>
+                    </div>
+                    <hr class="my-4">
+                    <p class="lead">Masukkan nilai rata-rata dan nilai x yang diinginkan, lalu klik submit untuk melihat hasilnya.</p>
+                </div>
+            </div>
+            </div>
+           
+            <!-- inputan -->
+        
+        <div class="container">
+        <div class="row">
+            <div class="col">
+                <input type="text" style="background-color:#ffffff2a; border-color: #bcc6cc79; color: #ffffff;" 
+                class="form-control custom-placeholder""
+                    placeholder="Rata-Rata">
+            </div>
+            <div class="col">
+                <input type="text" style="background-color:#ffffff2a; border-color: #bcc6cc79; color: #ffffff;"
+                    class="form-control custom-placeholder""
+                                placeholder=" Nilai x>0">
+            </div>
+            <div class="col">
+                <input type="text" style="background-color:#ffffff2a; border-color: #bcc6cc79; color: #ffffff;"
+                    class="form-control custom-placeholder""
+                                placeholder="Nilai x<0">
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-outline-secondary">Input</button>
+            </div>
+        </div>
+        </div>
+        
+        </br>
+        </br>
+        
+        
+        <!-- card hasil -->
+        <div class="card">
+            <div class="card-header">
+                Hasil
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <!-- tempat kurva -->
+                        <div class="card" style="width: 34rem;">
+                            <div class="card-body">
+                                <h1 class="text-center">Tampilan Grafik</h1>
+        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!-- tempat jawaban -->
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-body">
+                                <h1 class="text-center">Tampilan Jawaban</h1>
+        
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        </div>
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        </body>
+        
+        </html>

@@ -1,0 +1,20 @@
+.form-control {
+            background-color: #ffffff2a;
+            border-color: #bcc6cc79;
+        }
+
+        .form-control:focus {
+            border-color: #ffffff; /* Ganti dengan warna yang diinginkan */
+            box-shadow: 0 0 0 0.2rem #ffffff7c; /* Ganti dengan warna yang diinginkan */
+        }
+.custom-placeholder::placeholder {
+    color: white;
+}
+.custom-jumbotron {
+    font-family: 'helvetica', sans-serif; /* Menggunakan font Arial */
+    
+}
+.custom-jumbotron {
+    color: white;
+}
+
